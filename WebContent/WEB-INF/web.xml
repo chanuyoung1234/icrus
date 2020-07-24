@@ -10,17 +10,11 @@
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
   <filter>
-  	<filter-name>set request char encoding</filter-name>
-  	<filter-class>com.guest.filter.SetRequestCharEncodingFilter</filter-class>
+    <filter-name>set request char encoding</filter-name>
+    <filter-class>com.guest.filter.SetRequestCharEncodingFilter</filter-class>
   </filter>
   <filter-mapping>
-  	<filter-name>set request char encoding</filter-name>
-  	<url-pattern>/*</url-pattern>
+    <filter-name>set request char encoding</filter-name>
+    <url-pattern>/*</url-pattern>
   </filter-mapping>
 </web-app>
-
-
-
-
-
-
